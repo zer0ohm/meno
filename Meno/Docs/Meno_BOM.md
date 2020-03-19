@@ -1,4 +1,4 @@
-# Meno BOM v1.0-20200317
+# Meno BOM v1.0-20200318
  * 印刷用データはMeno_BOM.pdfをご利用ください。
 
 ## 1ページ目 (部品名や概要等)
@@ -44,35 +44,35 @@
 
 | 基板上部品番号               | 個数 | フットプリント - 特記なしはKiCadでの名称                   | Digikey通販コード        | 秋月通販コード    |
 |------------------------------|------|------------------------------------------------------------|--------------------------|-------------------|
-| C1, 2, 3, 4, 5, 8, 9, 11, 14 | 9    | Capacitor_SMD:C_0805_2012Metric                            | N/A                      | P-13372 (50個/袋) |
-| C6, 7                        | 2    | Capacitor_SMD:C_0805_2012Metric                            | 490-14650-1-ND           | N/A               |
-| C10                          | 1    | Capacitor_SMD:C_0805_2012Metric                            | 490-13311-1-ND           | N/A               |
-| C12, 13, 15                  | 3    | Capacitor_SMD:C_0805_2012Metric                            | 490-14464-1-ND           | P-13699 (10個/袋) |
-| D1                           | 1    | LED_SMD:LED_0805_2012Metric                                | 404-1021-1-ND            | I-09340 (20個/袋) |
-| D2                           | 1    | LED_SMD:LED_0805_2012Metric                                | D1に同じ                 | D1に同じ          |
-| D3                           | 1    | LED_SMD:LED_0805_2012Metric                                | D1に同じ                 | D1に同じ          |
-| D4                           | 1    | LED_SMD:LED_0805_2012Metric                                | D1に同じ                 | D1に同じ          |
-| D5                           | 1    | Diode_SMD:D_SOD-123                                        | 1N4148W-FDICT-ND         | I-07084 (40個/袋) |
-| D6, 7                        | 2    | Diode_SMD:D_SOD-123F                                       | RB160MM-30CT-ND          | I-01398 (10個/袋) |
-| F1                           | 1    | Fuse:Fuse_1812_4532Metric                                  | MF-MSMF050-2CT-ND        | N/A               |
+| C1, 2, 3, 4, 5, 8, 9, 11, 14 | 9    | Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.41mm_HandSolder                            | N/A                      | P-13372 (50個/袋) |
+| C6, 7                        | 2    | Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.41mm_HandSolder                            | 490-14650-1-ND           | N/A               |
+| C10                          | 1    | Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.41mm_HandSolder                            | 490-13311-1-ND           | N/A               |
+| C12, 13, 15                  | 3    | Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.41mm_HandSolder                            | 490-14464-1-ND           | P-13699 (10個/袋) |
+| D1                           | 1    | LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder                                | 404-1021-1-ND            | I-09340 (20個/袋) |
+| D2                           | 1    | LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder                                | D1に同じ                 | D1に同じ          |
+| D3                           | 1    | LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder                                | D1に同じ                 | D1に同じ          |
+| D4                           | 1    | LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder                                | D1に同じ                 | D1に同じ          |
+| D5                           | 1    | SOD123(F)-HandSolder:D_SOD-123                                        | 1N4148W-FDICT-ND         | I-07084 (40個/袋) |
+| D6, 7                        | 2    | SOD123(F)-HandSolder:D_SOD-123                                       | RB160MM-30CT-ND          | I-01398 (10個/袋) |
+| F1                           | 1    | Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder                                  | MF-MSMF050-2CT-ND        | N/A               |
 | J1                           | 1    | 5077CR-16SMC2-BK-TR:GCT_USB4105-GF-A (gct.coから)          | 2073-USB4105-GF-ACT-ND   | C-14356           |
 | J2                           | 1    | Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical | N/A                      | C-00166           |
 | J3                           | 1    | CUI_PJ-102A:CUI_PJ-102A (cuidevices.comから)               | CP-102AH-ND              | C-09408           |
 | J4                           | 1    | Connector_PinSocket_2.54mm:PinSocket_2x19_P2.54mm_Vertical | N/A                      | C-05780           |
 | J5                           | 1    | Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Vertical | J4に同じ                 | J4に同じ          |
 | J6                           | 1    | Connector_PinSocket_2.54mm:PinSocket_2x15_P2.54mm_Vertical | J4に同じ                 | J4に同じ          |
-| L1                           | 1    | Inductor_SMD:L_0805_2012Metric                             | MH2029-300YCT-ND         | N/A               |
-| Q1                           | 1    | Package_TO_SOT_SMD:SOT-23                                  | IRLML6402PBFCT-ND        | I-02553 (10個/袋) |
-| R1, 2, 3                     | 3    | Resistor_SMD:R_0805_2012Metric                             | 2019-RK73B2ATTD102JCT-ND | N/A               |
-| R4, 5, 6, 7                  | 4    | Resistor_SMD:R_0805_2012Metric                             | 2019-RK73B2ATTD103JCT-ND | N/A               |
-| R8, 9                        | 2    | Resistor_SMD:R_0805_2012Metric                             | 2019-RK73B2ATTD512JCT-ND | N/A               |
-| R10                          | 1    | Resistor_SMD:R_0805_2012Metric                             | 2019-RK73B2ATTD333JCT-ND | N/A               |
+| L1                           | 1    | Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder                             | MH2029-300YCT-ND         | N/A               |
+| Q1                           | 1    | Package_TO_SOT_SMD:SOT-23_Handsoldering                                  | IRLML6402PBFCT-ND        | I-02553 (10個/袋) |
+| R1, 2, 3                     | 3    | Resistor_SMD:R_0805_2012Metric_Pad1.15x1.41mm_HandSolder                             | 2019-RK73B2ATTD102JCT-ND | N/A               |
+| R4, 5, 6, 7                  | 4    | Resistor_SMD:R_0805_2012Metric_Pad1.15x1.41mm_HandSolder                             | 2019-RK73B2ATTD103JCT-ND | N/A               |
+| R8, 9                        | 2    | Resistor_SMD:R_0805_2012Metric_Pad1.15x1.41mm_HandSolder                             | 2019-RK73B2ATTD512JCT-ND | N/A               |
+| R10                          | 1    | Resistor_SMD:R_0805_2012Metric_Pad1.15x1.41mm_HandSolder                             | 2019-RK73B2ATTD333JCT-ND | N/A               |
 | SW1                          | 1    | B3FS-1050P:B3FS-1012 (ultralibrarian.comから)              | Z5350CT-ND               | P-10527           |
 | U1                           | 1    | Package_QFP:TQFP-100_14x14mm_P0.5mm                        | ATMEGA2560-16AURCT-ND    | N/A               |
 | U2                           | 1    | Package_SO:SSOP-28_5.3x10.2mm_P0.65mm                      | 768-1007-1-ND            | I-01739           |
 | U3                           | 1    | Package_TO_SOT_SMD:SOT-223-3_TabPin2                       | LM340MPX-5.0/NOPBCT-ND   | N/A               |
-| U4                           | 1    | Package_TO_SOT_SMD:SOT-23-5                                | 296-50414-1-ND           | N/A               |
-| Y1                           | 1    | Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm        | SER4046CT-ND             | P-02457 (4個/袋)  |
+| U4                           | 1    | Package_TO_SOT_SMD:SOT-23-5_HandSoldering                                | 296-50414-1-ND           | N/A               |
+| Y1                           | 1    | Crystal:Crystal_SMD_SeikoEpson_FA238-4Pin_3.2x2.5mm_HandSoldering        | SER4046CT-ND             | P-02457 (4個/袋)  |
 
 ## 3ページ目 (データシートや関連資料)
 
