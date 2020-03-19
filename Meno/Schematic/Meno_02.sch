@@ -6,10 +6,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
 Title "Meno (Arduino Compatible)"
-Date "2020-02-19"
+Date "2020-03-19"
 Rev "Prototype"
 Comp ""
-Comment1 "License: https://github.com/zer0ohm/meno/tree/master/Meno/LICENCE"
+Comment1 "License: https://github.com/zer0ohm/meno/tree/master/Meno/LICENSE"
 Comment2 "Git repo: https://github.com/zer0ohm/meno/tree/master/Meno"
 Comment3 ""
 Comment4 "Meno stand for \"MEga in uNO\"."
