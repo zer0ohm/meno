@@ -3,7 +3,7 @@
 
 ## Meno
 マイコンにATmega2560、USBコネクタにType-Cを採用したボードです。 GPIOは公式のMEGAと同じ70本です。(内訳: ディジタルI/O 54本、アナログI/O 16本)
-* 回路図: [Meno_RevPrototype_sch.pdf](https://github.com/zer0ohm/meno/blob/master/Meno/Schematic/Meno_RevPrototype_sch.pdf)
+* 回路図: [Meno_sch.pdf](https://github.com/zer0ohm/meno/blob/master/Meno/Schematic/Meno_sch.pdf)
 * 部品表: [Meno_BOM.pdf](https://github.com/zer0ohm/meno/blob/master/Meno/Docs/Meno_BOM.pdf) もしくは [Meno_BOM.md](https://github.com/zer0ohm/meno/blob/master/Meno/Docs/Meno_BOM.md)
 * 組み立て方法: [Meno_assemble.md](https://github.com/zer0ohm/meno/blob/master/Meno/Docs/Meno_assemble.md)
 
