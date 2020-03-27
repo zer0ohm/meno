@@ -1,4 +1,4 @@
-# Meno BOM v1.0-20200318
+# Meno BOM v1.0-20200327
  * 印刷用データはMeno_BOM.pdfをご利用ください。
 
 ## 1ページ目 (部品名や概要等)
@@ -19,9 +19,9 @@
 | J1                           | 1    | 5077CR-16SMC2     | 5077CR-16SMC2-BK-TR | Neltron Industrial      | USB3.1 Type-C型コネクタ                    |
 | J2                           | 1    | AVR-ISP-6         | PH-2x7SG            | Useconn Electronics     | AVR ICSP用ピンヘッダ                       |
 | J3                           | 1    | 18742             | 18742               | 4UCON                   | DCジャック (20[V], 4[A]絶対定格)           |
-| J4                           | 1    | Conn_02x19_Female | FHU-2x42SG          | Useconn Electronics     | GPIO用ピンソケット (*3)                    |
-| J5                           | 1    | Conn_02x12_Female | FHU-2x42SG          | Useconn Electronics     | GPIO用ピンソケット (*3)                    |
-| J6                           | 1    | Conn_02x15_Female | FHU-2x42SG          | Useconn Electronics     | GPIO用ピンソケット                         |
+| J4, 5, 6                           | 3    | Conn_01x08, 10, 19 | FHU-1x42SG          | Useconn Electronics     | GPIO用ピンソケット (*3)                    |
+| J7, 8, 9                            | 3    | Conn_01x06, 08, 15 | FHU-1x42SG          | Useconn Electronics     | GPIO用ピンソケット (*3)                    |
+| J10                           | 1    | Conn_02x12 | FHU-2x42SG          | Useconn Electronics     | GPIO用ピンソケット                         |
 | L1                           | 1    | MH2029-300Y       | MH2029-300Y         | Bourns                  | フェライトビーズ                           |
 | Q1                           | 1    | IRLML6402         | IRLML6402TRPBF      | International Rectifier | Pch型MOSFET                                |
 | R1, 2, 3                     | 3    | 10k               | RK73B2ATTD103J      | KOA                     | チップ抵抗 (0.25W)                         |
@@ -58,9 +58,9 @@
 | J1                           | 1    | 5077CR-16SMC2-BK-TR:GCT_USB4105-GF-A (gct.coから)          | 2073-USB4105-GF-ACT-ND   | C-14356           |
 | J2                           | 1    | Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical | N/A                      | C-00166           |
 | J3                           | 1    | CUI_PJ-102A:CUI_PJ-102A (cuidevices.comから)               | CP-102AH-ND              | C-09408           |
-| J4                           | 1    | Connector_PinSocket_2.54mm:PinSocket_2x19_P2.54mm_Vertical | N/A                      | C-05780           |
-| J5                           | 1    | Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Vertical | J4に同じ                 | J4に同じ          |
-| J6                           | 1    | Connector_PinSocket_2.54mm:PinSocket_2x15_P2.54mm_Vertical | J4に同じ                 | J4に同じ          |
+| J4, 5, 6                            | 3    | Connector_PinSocket_2.54mm:PinSocket_1x08, 10, 19 | N/A                      | C-05779           |
+| J7, 8, 9                           | 3    | Connector_PinSocket_2.54mm:PinSocket_1x06, 08, 15 | J4, 5, 6に同じ                 | J4, 5, 6に同じ          |
+| J10                           | 1    | Connector_PinSocket_2.54mm:PinSocket_2x12 | J4, 5, 6に同じ                 | C-05780          |
 | L1                           | 1    | Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder                             | MH2029-300YCT-ND         | N/A               |
 | Q1                           | 1    | Package_TO_SOT_SMD:SOT-23_Handsoldering                                  | IRLML6402PBFCT-ND        | I-02553 (10個/袋) |
 | R1, 2, 3                     | 3    | Resistor_SMD:R_0805_2012Metric_Pad1.15x1.41mm_HandSolder                             | 2019-RK73B2ATTD102JCT-ND | N/A               |
@@ -92,9 +92,9 @@
 | J1                           | 1    | https://www.amphenol-icc.com/media/wysiwyg/files/drawing/12401610e4x2a.pdf                                                        |
 | J2                           | 1    | http://akizukidenshi.com/download/ds/useconn/PH-2xXXSG-AD.pdf                                                                     |
 | J3                           | 1    | https://www.cuidevices.com/product/resource/pj-102a.pdf                                                                           |
-| J4                           | 1    | http://akizukidenshi.com/download/ds/useconn/FHU-2xXXSG-AD.pdf                                                                    |
-| J5                           | 1    | http://akizukidenshi.com/download/ds/useconn/FHU-2xXXSG-AD.pdf                                                                    |
-| J6                           | 1    | http://akizukidenshi.com/download/ds/useconn/FHU-2xXXSG-AD.pdf                                                                    |
+| J4, 5, 6                           | 1    | http://akizukidenshi.com/download/ds/useconn/FHU-1.pdf                                                                    |
+| J7, 8, 9                            | 1    | http://akizukidenshi.com/download/ds/useconn/FHU-1.pdf                                                                    |
+| J10                           | 1    | http://akizukidenshi.com/download/ds/useconn/FHU-2xXXSG-AD.pdf                                                                    |
 | L1                           | 1    | https://www.bourns.com/docs/Product-Datasheets/mh.pdf                                                                             |
 | Q1                           | 1    | https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c                                            |
 | R1, 2, 3                     | 3    | https://www.koaglobal.com/-/media/Files/KOA_Global/product/commonpdf/rk73b.pdf                                                    |
