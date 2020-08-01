@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name Meno_01-rescue)(type Legacy)(uri ${KIPRJMOD}/Meno_01-rescue.lib)(options "")(descr ""))
+  (lib (name r_array_unit4-resistor_array_unit)(type Legacy)(uri C:/whome/kicad_projects/divergence_meter_0hm/Schematic/dm_mainboard/r_array_unit4-resistor_array_unit.lib)(options "")(descr ""))
+  (lib (name Meno_V101_01-rescue)(type Legacy)(uri ${KIPRJMOD}/Meno_V101_01-rescue.lib)(options "")(descr ""))
+  (lib (name Meno_V101_02-rescue)(type Legacy)(uri ${KIPRJMOD}/Meno_V101_02-rescue.lib)(options "")(descr ""))
+)
