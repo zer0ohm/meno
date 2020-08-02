@@ -922,7 +922,7 @@ Wire Wire Line
 Text Notes 6900 6200 0    79   ~ 0
 This design, "Meno_V101_01.sch", is a derivative of \n"Original Arduino Uno and MEGA2560 Rev3 Design" by Team Arduino, \nused under CC-BY-SA 3.0. \n"Meno_V101_01&02.sch" is licensed under CC-BY-SA 3.0 by zer0ohm.
 Text Notes 6900 6500 0    79   ~ 0
-Original Arduino Uno and MEGA2560 Rev3 Design by Team Arduino\nMeno Ver. 1.01 by zer0ohm
+Original Arduino Uno and MEGA2560 Rev3 Design by Team Arduino\nMeno(Ver. 1.01) by zer0ohm
 Wire Notes Line
 	3400 5800 3250 5800
 Wire Notes Line
