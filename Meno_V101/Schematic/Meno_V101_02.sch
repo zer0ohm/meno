@@ -133,7 +133,7 @@ AR Path="/5F895677/5F8EB731" Ref="C?"  Part="1"
 AR Path="/5E4DC0FD/5F8EB731" Ref="C?"  Part="1" 
 AR Path="/5E4DD525/5F8EB731" Ref="C10"  Part="1" 
 F 0 "C10" H 8050 3900 50  0000 L CNN
-F 1 "0.22u" H 8050 3800 50  0000 L CNN
+F 1 "0.33u" H 8050 3800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7988 3700 50  0001 C CNN
 F 3 "https://psearch.jp.murata.com/capacitor/product/GCM21BR71H224KA37%23.html" H 7950 3850 50  0001 C CNN
 	1    7950 3850
